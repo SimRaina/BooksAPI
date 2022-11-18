@@ -1,11 +1,16 @@
 # Flask_APIs
 Created APIs using Flask
 
-1. Download and install Python 3. Set Environment variables.
-2. pip install Flask.
-3. Go to the folder where app.py file is available. Run command "python app.py" to start the API server.
-4. Open Postman and import collection.json file. Go to Manage Environment and import environment.json.
-5. Run this collection. 
+Prerequisite: a) Download and install Python 3. 
+              b) Set Environment variables in your local system.
+              c) pip install Flask.
+1. Download this GitHub repo on your local system.
+2. Go to the folder where app.py file is available. 
+3. Open CMD and run command "python app.py" to start the API server.
+In this code repo you will also find collection and environment json files.
+4. Open Postman and import collection.json file. 
+5. Go to Manage Environment and import environment.json.
+5. Run this collection on postman as per the SimRaina QA YouTube video.
 
 
 To run collection from the commandline:
