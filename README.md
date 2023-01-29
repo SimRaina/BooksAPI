@@ -10,7 +10,8 @@ Prerequisite: a) Download and install Python 3.
 In this code repo you will also find collection and environment json files.
 4. Open Postman and import collection.json file. 
 5. Go to Manage Environment and import environment.json.
-5. Run this collection on postman as per the SimRaina QA YouTube video.
+5. Run this collection on postman as per SimRaina QA YouTube Postman session: 
+https://www.youtube.com/watch?v=MkSdNU7CN9g&list=PLxpZfOtJA71zQ1yPJ4tf4Ra4kKmULcSxZ&index=3
 
 
 To run collection from the commandline:
@@ -18,4 +19,4 @@ To run collection from the commandline:
 2. Verify node and npm are installed.
 3. Run command to install newman -> "npm install -g newman"
 4. Go to the folder where collection.json and environment.json files are available.
-5. Run command on the commandline -> newman run <collectionanme>.json -e <environment>.json
+5. Run command on the commandline -> newman run collectionanme.json -e environment.json
